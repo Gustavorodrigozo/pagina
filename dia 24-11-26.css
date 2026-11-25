@@ -1,0 +1,19 @@
+#vsc{border-radius: 20px;height: 125px;
+border: 10px solid rgb(34, 138, 194);
+}
+#css{border-radius: 20px;height: 125px;width: 125px;
+border: 10px solid rgb(34, 138, 194);
+}
+#html{border-radius: 20px;
+border: 10px solid rgb(34, 138, 194);
+}
+body{background-color: rgb(7, 50, 72);font-family: "Azeret Mono";font-size: 20px;Font-weight: bold;color: rgb(190, 201, 207);text-align: left;}
+title{color: rgb(34, 138, 194);}
+a{color: rgb(18, 128, 85);text-decoration:underline;}
+#encabezado{font-family: "Momo Signature", cursive;
+}
+#text1{
+    text-decoration: underline;
+    font-family: "Momo Signature", cursive;
+}
+h1{font-size: 24px;font-family:"arial";font-weight:bold;color: rgb(120, 221, 177);}

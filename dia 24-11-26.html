@@ -1,0 +1,71 @@
+<!DOCTYPE html>  <!--Le dice al navegador la version de HTML que se esta utilizando -->
+<html lang="es"> <!--Le dice al navegador que el contenido esta en español -->
+<head> <!--Sección de encabezado -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen dia 24-11-26</title>
+    <link rel="stylesheet" href="dia 24-11-26.css"> <!--Enlace a la hoja de estilos CSS externa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Momo+Signature&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body><!--Sección de contenido principal -->
+   <h1 id="encabezado">Herramientas utilizadas: HTML, CSS, Visual Studio Code y Copilot, freeCodeCamp</h1>
+    <br>
+    <hr>
+    <h1>indice</h1>
+  <a href="#p1">Resumen dia 24-11-26</a>
+  <br>
+    <a href="#p2">Ejemplos de inputs</a>
+    <br>
+    <a href="#p3">Ejemplo de input de tipo grupo de radio</a>
+    <br>
+    <a href="#p4">Ejemplo de input de tipo checkbox</a>
+    <br>
+    <a href="#p5">para hoy</a>
+    <hr>
+   <img id="vsc" src="vsc.jpg" alt="Visual Studio Code">
+   <img id="css" src="css.jpg" alt="Imagen de CSS">
+   <img id="html" src="html.jpg" alt="Imagen de HTML">
+    <h1 id="p1">Resumen dia 24-11-26</h1>
+    <hr>
+    <p id="text1">Este es el resumen del día 24 de noviembre de 2026. En la guia para aprender programacion web desde cero sugieren iniciar con HTML y CSS, luego pasar a JavaScript.
+    </p>
+    <ol>
+    <li>Este dia aprendi sobre los fundamentos de HTML y CSS.
+    <li> Html para dar la estructura a las páginas web y CSS para darles estilo.
+    <li>Aprendi como crear links en HTML tanto a sitios externos como a secciones internas de la misma página.
+    <li>Aprendi como crear listas en HTML y CSS tanto ordenadas como no ordenadas y crear inputs de tipo texto, radio y checkbox, ademas de aprender sobre la importancia de la semántica en HTML.
+    <li>Ademas aprendi sobre el uso de CSS para personalizar la pagina web usando selectores y propiedades y modelo de caja en CSS y cómo controlar el espacio entre elementos.
+    </ol>
+    <hr>
+<h1 id="p2">Ejemplos de inputs</h1>
+<form action="/enviar-respuesta"> 
+    <input type="text" placeholder="input de tipo texto"required>
+    <button type="submit">Boton del input</button>
+<hr>
+<h1 id="p3">Ejemplo de input de tipo grupo de radio</h1>
+    </form action="enviar-respuesta">
+<label><input name ="rad" type="radio">solo se puede marcar</label>  
+<label><input name ="rad" type="radio">uno de los botones</label>  
+<hr>
+<h1 id="p4">Ejemplo de input de tipo checkbox</h1>
+<label for="checkbox1"><input name ="checkbox" type="checkbox">checkbox1</label>
+<label for="checkbox2"><input name ="checkbox" type="checkbox">checkbox2</label>
+<label for="checkbox3"><input name ="checkbox" type="checkbox">checkbox3</label>
+<hr>
+<h1 id="p5">Ahora la guia sugiere continuar con:</h1>
+<ul>
+    <li>flexbox para mejorar el diseño</li>
+    <li>javascript para agregar interactividad</li>
+    <li>grid para crear diseños más flexibles</li>
+    <li>github para el control de versiones</li>
+</ul>
+<hr>
+<h2 id="links">Como guia utilize la pagina <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a> y este <a href="https://www.youtube.com/watch?v=XqFR2lqBYPs&t=14524s" target="_blank">video de YouTube</a></h2>
+</body>
+</html>
